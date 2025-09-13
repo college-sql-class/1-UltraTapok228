@@ -1,5 +1,6 @@
--- В этом файле вы пишете свои SQL-запросы
--- Например:
+UPDATE students
+SET name = 'Элис_обновлено', age = 22
+WHERE id = 1;
 
--- UPDATE где SET что WHERE условие;
--- DELETE FROM где WHERE условие;
+DELETE FROM students
+WHERE id = 2;
